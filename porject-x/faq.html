@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ - MERON PRODUCTION</title>
+    <link rel="stylesheet" href="styel.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            background: linear-gradient(120deg, #232526 0%, #414345 100%);
+            min-height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+
+        .faq-page {
+            min-height: calc(100vh - 80px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 40px 16px;
+        }
+
+        .faq-card {
+            width: min(1000px, 100%);
+            background: rgba(255, 255, 255, 0.07);
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.25);
+            backdrop-filter: blur(6px);
+            -webkit-backdrop-filter: blur(6px);
+            border-radius: 20px;
+            padding: 40px 32px;
+            color: #fff;
+        }
+
+        .faq-title {
+            margin: 0 0 12px 0;
+            color: #FFD700;
+            font-size: 2.2rem;
+            letter-spacing: 1px;
+            text-align: center;
+        }
+
+        .faq-subtitle {
+            margin: 0 auto 26px auto;
+            max-width: 720px;
+            text-align: center;
+            color: #f3f3f3;
+            line-height: 1.7;
+            font-size: 1.1rem;
+        }
+
+        .faq-list {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 12px;
+        }
+
+        details {
+            background: rgba(0, 0, 0, 0.22);
+            border: 1px solid rgba(255, 255, 255, 0.14);
+            border-radius: 14px;
+            padding: 14px 16px;
+        }
+
+        summary {
+            cursor: pointer;
+            font-weight: bold;
+            color: #FFD700;
+            list-style: none;
+        }
+
+        summary::-webkit-details-marker {
+            display: none;
+        }
+
+        details p {
+            margin: 12px 0 0 0;
+            color: #f3f3f3;
+            line-height: 1.7;
+        }
+
+        @media (max-width: 820px) {
+            .faq-card {
+                padding: 28px 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <div class="nav1">
+            <i class="fas fa-camera"></i>
+            <span>MERON <br> PRODUCTION</span>
+        </div>
+        <div class="nav2"><a href="home.html">Home</a></div>
+         <div class="nav7"><a href="contact.html">Contact</a></div>
+        <div class="nav4"><a href="about.html">About us</a></div>
+        <div class="nav5"><a href="booking.html">Booking</a></div>
+        <div class="nav6"><a href="faq.html">FAQ</a></div>
+        <div class="nav3"><a href="portfolio.html">GALLERY</a></div>
+        <div class="nav9">
+            <a href="https://instagram.com" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://facebook.com" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
+            <a href="https://linkedin.com" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </div>
+
+    <main class="faq-page">
+        <section class="faq-card">
+            <h1 class="faq-title">FAQ</h1>
+            <p class="faq-subtitle">Answers to common questions about MERON PRODUCTION and how to book a session.</p>
+
+            <div class="faq-list">
+                <details open>
+                    <summary>What type of photography do you offer?</summary>
+                    <p>We cover weddings, portraits, events, product shoots, and creative sessions. If you have a special idea, choose “Other” in the booking form and tell us your vision.</p>
+                </details>
+
+                <details>
+                    <summary>How do I book a session?</summary>
+                    <p>Open the Booking page and fill out the form with your preferred date and session type. After you submit, we’ll contact you to confirm availability and details.</p>
+                </details>
+
+                <details>
+                    <summary>How long does it take to receive the photos?</summary>
+                    <p>Delivery depends on the session. Portraits are usually faster, while weddings/events can take longer due to editing. We will agree on the delivery time when we confirm your booking.</p>
+                </details>
+
+                <details>
+                    <summary>Do you edit the photos?</summary>
+                    <p>Yes. We do professional color correction and retouching while keeping a natural look. If you want a special style (cinematic, black &amp; white, etc.), mention it in your message.</p>
+                </details>
+
+                <details>
+                    <summary>Where are you located and do you travel?</summary>
+                    <p>We can work on-location depending on the project. Tell us where your shoot will be and we’ll confirm travel options and any extra costs.</p>
+                </details>
+
+                <details>
+                    <summary>How much does it cost?</summary>
+                    <p>Pricing depends on the session type, duration, and location. Use the Booking page to request a quote, or message us on the Contact page.</p>
+                </details>
+
+                <details>
+                    <summary>Can I reschedule or cancel?</summary>
+                    <p>Yes. If you need to reschedule, contact us as soon as possible. We’ll do our best to accommodate changes based on availability.</p>
+                </details>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
